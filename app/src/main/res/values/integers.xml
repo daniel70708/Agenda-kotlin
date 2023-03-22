@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="counter_birthdate">8</integer>
+    <integer name="counter_phone">10</integer>
+    <integer name="counter_medium">100</integer>
+    <integer name="counter_big">200</integer>
+</resources>

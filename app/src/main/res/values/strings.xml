@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Contactos</string>
+
+    <!--Strings para las clases -->
+    <!--Fragment lista agenda-->
+    <string name="lista_agenda">Lista de contactos</string>
+    <string name="arg_id" translatable="false">llave_primaria</string>
+
+    <!-- Dialog de eliminar contacto -->
+    <string name="tituloDialog">¿Deseas eliminar este contacto?</string>
+    <string name="mensajeDialog">Al confirmar la siguiente acción, se eliminará definitivamente</string>
+    <string name="cancelarDialog">Cancelar</string>
+    <string name="confirmarDialog">Confirmar</string>
+
+    <!-- Fragment contacto -->
+    <string name="agregar_agenda">Agregar contacto</string>
+    <string name="actualizar_agenda">Actualizar contacto</string>
+    <string name="exito_guardar">Se ha guardado con éxito</string>
+    <string name="exito_actualizar">Se ha actualizado con éxito</string>
+
+    <!-- Strings para la vistas -->
+    <!-- Menú guardar -->
+    <string name="guardar_menu">Guardar</string>
+
+    <!-- Contacto -->
+    <string name="obligatorio">Campo obligatorio</string>
+    <string name="campoNombre">Nombre</string>
+    <string name="campoBirthdate">Cumpleaños</string>
+    <string name="campoTelefono">Telefono</string>
+    <string name="campoNotas">Notas adiccionales</string>
+    <string name="campoUrl">Url de la imagen</string>
+
+    <!-- Item_agenda -->
+    <string name="ejemploNombre">Ángel Daniel</string>
+    <string name="ejemploFecha">19/06/95</string>
+    <string name="ejemploTelefono">2284069875</string>
+    <string name="ejemploNota">Este espacio es para las notas del contacto</string>
+
+    <string name="obigatorio">Campo obligatorio</string>
+    <string name="camposObligatorios">Ingrese los campos que son obligatorios</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:backgroundTint="@color/teal_700"
+    android:elevation="3dp"
+    android:layout_margin="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_imgPhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/item_tvNombre"
+            style="@style/textoBlanco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ejemploNombre"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintStart_toEndOf="@+id/item_imgPhoto"
+            app:layout_constraintTop_toTopOf="@+id/item_imgPhoto"
+            app:layout_constraintEnd_toStartOf="@+id/item_tvFecha"/>
+
+        <TextView
+            android:id="@+id/item_tvFecha"
+            style="@style/textoBlanco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ejemploFecha"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintTop_toTopOf="@+id/item_tvNombre"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/item_tvTelefono"
+            style="@style/textoBlanco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ejemploTelefono"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintTop_toBottomOf="@+id/item_tvNombre"
+            app:layout_constraintStart_toEndOf="@id/item_imgPhoto"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/item_tvNotas"
+            style="@style/textoBlanco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ejemploNota"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintTop_toBottomOf="@id/item_tvTelefono"
+            app:layout_constraintStart_toEndOf="@id/item_imgPhoto"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
